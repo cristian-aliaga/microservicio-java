@@ -16,4 +16,4 @@ spec:
       - name: container-microservicio-java
         image: cristianaliaga/repo-image:latest
         ports:
-        - containerPort: 8080 
+        - containerPort: 8080
