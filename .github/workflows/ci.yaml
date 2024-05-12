@@ -63,4 +63,4 @@ jobs:
 
                 - name: Despliegue Test Runner Kubernetes
                   run: |
-                    kubectl apply -f deploy.yaml --validate=false
+                    kubectl apply -f deploy.yaml
