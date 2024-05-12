@@ -2,7 +2,8 @@ apiVersion: apps/v1
 kind: Pod
 metadata:
   name: microservicio-java
-  labels: microservicio-java
+  labels: 
+    name: microservicio-java
 spec:
   containers:
   - name: container-microservicio-java
