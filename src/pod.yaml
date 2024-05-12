@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+  name: microservicio-java
+  labels: microservicio-java
+spec:
+  containers:
+  - name: container-microservicio-java
+    image: cristianaliaga/repo-image:latest
+    ports:
+    - containerPort: 8080
