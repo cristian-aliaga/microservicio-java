@@ -58,7 +58,7 @@ jobs:
             runs-on: self-hosted
                 
             steps:
-                - name: Clonacion de Codigo
+                - name: Checkout
                   uses: actions/checkout@v4
 
                 - name: Despliegue Test Runner Kubernetes
